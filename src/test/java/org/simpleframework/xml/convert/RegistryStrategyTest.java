@@ -66,9 +66,9 @@ public class RegistryStrategyTest extends ValidationTestCase {
       assertElementHasNamespace(text, "/petShop", "http://domain/a");
       assertElementHasNamespace(text, "/petShop/pets", "http://domain/b");
       assertElementHasNamespace(text, "/petShop/pets/pet[1]", null);
-      assertElementHasAttribute(text, "/petShop/pets/pet[1]", "name", "Lassie");
-      assertElementHasAttribute(text, "/petShop/pets/pet[1]", "age", "10");
-      assertElementHasValue(text, "/petShop/pets/pet[2]/name", "Kitty");
-      assertElementHasValue(text, "/petShop/pets/pet[2]/age", "2");
+      assertElementHasAttribute(text, "/petShop/pets/pet[2]", "name", "Lassie");
+      assertElementHasAttribute(text, "/petShop/pets/pet[2]", "age", "10");
+      assertElementHasValue(text, "/petShop/pets/pet[1]/name", "Kitty");
+      assertElementHasValue(text, "/petShop/pets/pet[1]/age", "2");
    }
 }
