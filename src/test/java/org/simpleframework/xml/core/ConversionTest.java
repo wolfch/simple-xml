@@ -218,9 +218,9 @@ public class ConversionTest extends ValidationTestCase {
       assertEquals("Kitty", newShop.getPet("Kitty").getName());
       assertEquals(2, newShop.getPet("Kitty").getAge());
       
-      assertElementHasAttribute(text, "/petShop/pets/pet", "name", "Lassie");
-      assertElementHasAttribute(text, "/petShop/pets/pet", "age", "10");
-      assertElementExists(text, "/petShop/pets/pet[2]/name");
-      assertElementExists(text, "/petShop/pets/pet[2]/age");
+      assertElementExists(text, "/petShop/pets/pet[1]/name");
+      assertElementExists(text, "/petShop/pets/pet[1]/age");
+      assertElementHasAttribute(text, "/petShop/pets/pet[2]", "name", "Lassie");
+      assertElementHasAttribute(text, "/petShop/pets/pet[2]", "age", "10");
    }
 }
