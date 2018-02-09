@@ -2,6 +2,8 @@
 
 Its goal is to provide an XML framework that enables rapid development of XML configuration and communication systems. This framework aids the development of XML systems with minimal effort and reduced errors. It offers full object serialization and deserialization, maintaining each reference encountered. In essence it is similar to C# XML serialization for the Java platform, but offers additional features for interception and manipulation.
 
+_Author:_ *Niall Gallagher*
+
 :exclamation: Read the fine print, below.
 
 ## Simple framework with powerful capabilities
